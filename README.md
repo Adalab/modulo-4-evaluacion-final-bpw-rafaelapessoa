@@ -66,7 +66,7 @@ GET /vinos/:tipo
 ```http
 POST /vinos
 ```
-## Cuerpo de la solicitud:
+#### Cuerpo de la solicitud:
 ```http
 {
     "nombre": "nombre_del_vino",
@@ -82,7 +82,7 @@ POST /vinos
 ```http
 PUT /vinos/:id
 ```
-## Cuerpo de la solicitud:
+#### Cuerpo de la solicitud:
 ```http
 {
     "nombre": "nuevo_nombre",
